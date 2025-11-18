@@ -73,12 +73,12 @@
         }
         
         .iframe-container {
-            flex: 1;
+            position: fixed;
+            top: 80px;
+            left: 0;
+            right: 0;
+            bottom: 0;
             background: #1a1a1a;
-            margin: 20px;
-            border-radius: 12px;
-            overflow: hidden;
-            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.8);
             display: flex;
             align-items: center;
             justify-content: center;
@@ -89,6 +89,7 @@
             height: 100%;
             border: none;
             display: none;
+            background: #ffffff;
         }
         
         iframe.loaded {
